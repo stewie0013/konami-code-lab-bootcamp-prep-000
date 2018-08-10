@@ -20,7 +20,7 @@ function init() {
     
     if (indx === codes.length)
     {
-      window.alert("hurray!")
+      alert("hurray!")
       indx = 0
     }
   })
