@@ -16,6 +16,6 @@ function init() {
   
   document.body.addEventListener('keydown', function(e)
   {
-    if (e.key)
+    
   })
 }
