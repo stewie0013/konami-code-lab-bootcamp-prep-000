@@ -16,7 +16,14 @@ function init() {
   
   document.body.addEventListener('keydown', function(e)
   {
-    indx = (codes[indx] === e.key) ? ++indx : 0
+    const key = e.key
+    
+    if (key === codes[indx])
+    {
+      indx++
+    }
+    
+    //indx = (codes[indx] === e.key) ? ++indx : 0
     
     if (indx === codes.length)
     {
