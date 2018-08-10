@@ -22,6 +22,7 @@ function init() {
     if (indx === codes.length)
     {
       alert("hurray!")
+      console.log("hurraY")
       indx = 0
     }
   })
