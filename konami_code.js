@@ -21,7 +21,7 @@ function init() {
     
     if (indx === codes.length)
     {
-      document.alert("hurray!")
+      alert("hurray!")
       indx = 0
     }
   })
