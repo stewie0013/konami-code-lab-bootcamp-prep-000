@@ -19,7 +19,7 @@ function init() {
     indx = (codes[indx] === e.key) ? ++indx : 0
     console.log(indx)
     
-    if (indx === codes.length - 1)
+    if (indx === codes.length)
     {
       alert("hurray!")
       indx = 0
